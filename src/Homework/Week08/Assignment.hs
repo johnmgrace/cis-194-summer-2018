@@ -12,6 +12,7 @@ import Control.Applicative
 -- #1
 first :: (a -> b) -> (a,c) -> (b,c)
 first = undefined
+--mod
 
 instance Functor Parser where
   fmap = undefined
